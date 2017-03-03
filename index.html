@@ -1,7 +1,26 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Task</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div>
+      Text <input type="text" id="text"> 
+      Color <input type="text" id="colorText">     
+      Marker 
+      <select id='marker'>
+        <option>circle</option>
+        <option>disc</option>
+        <option>square</option>
+      </select>
+    </div>
+    <input type="button" id="create" value="Create">
+    <input type="button" id="delete" value="Delete current">
+    <input type="button" id="change" value="Change current">
+    <ul id="list"></ul>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src="js/index.js"></script>
+  </body>
 </html>
